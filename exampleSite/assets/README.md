@@ -1,3 +1,3 @@
-🎉🎉🎉 Hi everyone!! Hugo theme Luna has been released, welcome to use it, if you encounter problems, you can ask questions in [issues](https://github.com/Ice-Hazymoon/hugo-theme-luna/issues). Here are some notices that you can modify in [this file](https://github.com/Ice-Hazymoon/hugo-theme-luna/blob/master/exampleSite/assets/README.md) or delete it
+Welcome to my experimental website that will probably be used as an art blog. This will always be a work in progress and simply trying to experiment with SSGs and Netlify again. So, this is more or less a playground.
 
-
+- DazzleBlitz
