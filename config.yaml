@@ -51,7 +51,7 @@ params:
 
   runTime:
     enabled: true
-    creatTime: 2022/01/01
+    creatTime: 2026/11/21
 
   since: "2022"
 
@@ -64,14 +64,14 @@ params:
   share:
     twitter: true
     facebook: true
-    weibo: true
+    weibo: false
     copyLinkText: true
     qrcode: true
 
   qrcodeAPI: "https://www.lofter.com/genBitmaxImage?url="
 
   license:
-    enabled: true
+    enabled: false
     name: "CC BY-NC-ND 4.0"
     icon: "Cc-by-nc-nd.svg"
     url: "https://creativecommons.org/licenses/by-nc-nd/4.0"
@@ -83,7 +83,7 @@ params:
     minStars: 5
 
   twitter:
-    enabled: true
+    enabled: false
     rsshub: "https://rsshub.rssforever.com"
     id: ""
     imageProcessing: true
