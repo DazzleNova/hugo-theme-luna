@@ -135,7 +135,7 @@ $manuMain:
     name: GitHub
     weight: 80
     identifier: github
-    params:
+    params: DazzleNova
       icon: eva eva-github
     url: /github/
   - &mainMenuSearch
