@@ -1,7 +1,7 @@
 baseURL: https://hugo-theme-luna.imiku.me/
 languageCode: en-us
 defaultContentLanguage: en-us
-title: "Hugo Theme Luna"
+title: "DazzleBlitz Art Blog"
 enableRobotsTXT: true
 enableEmoji: true
 theme: hugo-theme-luna
@@ -35,7 +35,7 @@ permalinks:
   pages: /:slug.html # about.html
 
 author:
-  name: Ice-Hazymoon
+  name: DazzleBlitz
 
 frontmatter:
   lastmod:
@@ -203,7 +203,7 @@ params:
   # 评论系统
   # Comment system
   comments:
-    enabled: true
+    enabled: false
     provider: "giscus" # custom | giscus
     giscus: &giscus
       repo: "Ice-Hazymoon/hugo-theme-luna"
@@ -272,11 +272,11 @@ params:
     enabled: true
     # 网站创建时间
     # Site creation time
-    creatTime: 2016/12/12
+    creatTime: 2026/11/24
   
   #  网站创建年份
   # Site creation year
-  since: "2016"
+  since: "2026"
 
   # 显示文章过时提醒
   # show warning when outdated info detected
@@ -292,9 +292,9 @@ params:
 
   # 文章分享功能
   share:
-    twitter: true
-    facebook: true
-    weibo: true
+    twitter: false
+    facebook: false
+    weibo: false
     copyLinkText: true
     qrcode: true
   
@@ -303,25 +303,25 @@ params:
   # 文章许可设置
   # license
   license:
-    enabled: true
+    enabled: false
     name: "CC BY-NC-ND 4.0"
     icon: "Cc-by-nc-nd.svg" # in assets folder
     url: "https://creativecommons.org/licenses/by-nc-nd/4.0"
 
   # 显示右上角 i18n 切换按钮
   # Display i18n toggle button
-  i18nlist: true
+  i18nlist: false
 
   # GitHub 页面设置
   # github page
   github:
-    id: "torvalds" # or ["torvalds", "gvanrossum"]
+    id: "#" # or ["torvalds", "gvanrossum"]
     minStars: 5 # 最小 star 项目 / min stars
 
   # Twitter 页面设置
   # tweet page
   twitter:
-    enabled: true
+    enabled: false
     rsshub: "https://rsshub.rssforever.com" # rsshub url, see https://github.com/DIYgod/RSSHub
     id: "GenshinImpact" # Twitter ID
     # 如果为 true，Hugo 将下载图片和视频并进行优化，如果你在中国大陆地区，请谨慎启用这个选项
@@ -349,7 +349,7 @@ params:
 
   # 启用谷歌翻译插件
   # enable google translate in footer
-  googleTranslate: true
+  googleTranslate: false
 
   # 优化中文排版，请参考：https://github.com/vinta/pangu.js
   # Optimize Chinese typography, see: https://github.com/vinta/pangu.js
@@ -369,7 +369,7 @@ params:
 
   # 显示文章字数
   # show word count
-  wordCount: false
+  wordCount: true
 
   # 开启文章内目录，可以在页面内单独设置
   # Show table of contents, You can enable it separately in the page
@@ -484,7 +484,7 @@ languages:
         enabled: true
         file: "README.ja.md"
       comments:
-        enabled: true
+        enabled: false
         provider: "giscus"
         giscus:
           <<: *giscus
