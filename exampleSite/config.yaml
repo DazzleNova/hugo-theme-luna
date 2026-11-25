@@ -133,7 +133,7 @@ $manuMain:
     url: /twitter/
   - &mainMenuGitHub
     name: GitHub
-    weight: 80
+    weight: 0
     identifier: github
     params:
       icon: eva eva-github
