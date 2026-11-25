@@ -122,28 +122,28 @@ $manuMain:
     weight: 60
     identifier: categories
     params:
-      icon: "eva eva-folder"
+      icon: eva eva-folder
     url: /categories/
   - &mainMenuTwitter
     name: Twitter
     weight: 70
     identifier: twitter
     params: 
-      icon: "eva eva-twitter"
+      icon: eva eva-twitter
     url: /twitter/
   - &mainMenuGitHub
     name: GitHub
     weight: 80
     identifier: github
-    params: 
-      icon: "eva eva-github"
+    params:
+      icon: eva eva-github
     url: /github/
   - &mainMenuSearch
     name: Search
     weight: 999
     identifier: search
     params:
-      icon: "eva eva-search"
+      icon: eva eva-search
     url: /search/
 
 # 如果你不想要导航栏，你可以删除这一段
@@ -190,7 +190,7 @@ params:
 
   # 在网站顶部显示标题和摘要，使用 .Site.Title 和 .Site.Params.Description
   # Display title and description at the top of the page, use .Site.Title and .Site.Params.Description
-  topTitle: false
+  topTitle: true
 
   # 在首页顶部创建一个通知部分
   # Create a Announcement section at the top of the home page
@@ -313,8 +313,8 @@ params:
   # GitHub 页面设置
   # github page
   github:
-    id: "#" # or ["torvalds", "gvanrossum"]
-    minStars: 5 # 最小 star 项目 / min stars
+    id: "DazzleNova" # or ["torvalds", "gvanrossum"]
+    minStars: 999 # 最小 star 项目 / min stars
 
   # Twitter 页面设置
   # tweet page
