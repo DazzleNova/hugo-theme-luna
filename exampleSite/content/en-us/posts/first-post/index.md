@@ -5,6 +5,7 @@ slug: first-test-post
 draft: false
 toc: true
 summary: This is my first blog post!
+tags:
   - Test Post
   - Hugo
 categories:
