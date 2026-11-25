@@ -122,28 +122,28 @@ $manuMain:
     weight: 60
     identifier: categories
     params:
-      icon: eva eva-folder
+      icon: "eva eva-folder"
     url: /categories/
   - &mainMenuTwitter
     name: Twitter
     weight: 70
     identifier: twitter
     params: 
-      icon: eva eva-twitter
+      icon: "eva eva-twitter"
     url: /twitter/
   - &mainMenuGitHub
     name: GitHub
     weight: 80
     identifier: github
-    params: DazzleNova
-      icon: eva eva-github
+    params: 
+      icon: "eva eva-github"
     url: /github/
   - &mainMenuSearch
     name: Search
     weight: 999
     identifier: search
     params:
-      icon: eva eva-search
+      icon: "eva eva-search"
     url: /search/
 
 # 如果你不想要导航栏，你可以删除这一段
@@ -251,7 +251,7 @@ params:
 
   # 固定导航栏
   # Fixed navigation bar
-  fixedNav: false
+  fixedNav: true
 
   # 网站字体
   # Site font
