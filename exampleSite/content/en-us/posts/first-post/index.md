@@ -1,5 +1,5 @@
 ---
-title: "Shortcodes"
+title: "First Post"
 date: 2026-11-24
 slug: first-test-post
 draft: false
