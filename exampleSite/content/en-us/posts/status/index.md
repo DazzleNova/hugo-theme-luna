@@ -1,10 +1,10 @@
 ---
-author: Ice-Hazymoon
+author: DazzleNova
 type: status
-date: 2019-02-15T07:01:32+00:00
-slug: luna-released
+date: 2026-11-24
+slug: first-post
 categories:
-  - Luna
+  - test
 ---
 
-Hugo theme luna has been released, welcome to use it!
+This is my first post here.
