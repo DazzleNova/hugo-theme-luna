@@ -1,4 +1,4 @@
-baseURL: https://hugo-theme-luna.imiku.me/
+baseURL: https://dazzleblitz.netlify.app
 languageCode: en-us
 defaultContentLanguage: en-us
 title: "DazzleBlitz Art Blog"
@@ -6,7 +6,7 @@ enableRobotsTXT: true
 enableEmoji: true
 theme: hugo-theme-luna
 timeout: 600000
-timeZone: Asia/Shanghai
+timeZone: United States/New York
 
 # 可根据 Git 中的提交生成最近更新记录。
 # use git commit log to generate lastmod record
@@ -128,12 +128,12 @@ $manuMain:
     name: Twitter
     weight: 70
     identifier: twitter
-    params:
+    params: 
       icon: eva eva-twitter
     url: /twitter/
   - &mainMenuGitHub
     name: GitHub
-    weight: 0
+    weight: 80
     identifier: github
     params:
       icon: eva eva-github
@@ -154,8 +154,6 @@ menu:
     - *mainMenuAbout
     - *mainMenuLinks
     - *mainMenuArchives
-    - *mainMenuTwitter
-    - *mainMenuGitHub
     - *mainMenuSearch
   # 副导航 / sub-navigation
   # sub:
