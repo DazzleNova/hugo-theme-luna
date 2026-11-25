@@ -4,8 +4,7 @@ date: 2026-11-24
 slug: first-test-post
 draft: false
 toc: true
-summary: Some shortcode examples
-tags:
+summary: This is my first blog post!
   - Test Post
   - Hugo
 categories:
