@@ -10,11 +10,11 @@ timeZone: America/New_York
 
 # 可根据 Git 中的提交生成最近更新记录。
 # use git commit log to generate lastmod record
-enableGitInfo: false
+enableGitInfo: true
 
 # 如果你的博客包含中日韩语，请启用此选项
 # enable CJK language support
-hasCJKLanguage: true
+hasCJKLanguage: false
 
 # 每页显示文章数量
 # pagination size
@@ -270,7 +270,7 @@ params:
     enabled: true
     # 网站创建时间
     # Site creation time
-    creatTime: 2026/11/24
+    creatTime: 2026/11/21
   
   #  网站创建年份
   # Site creation year
@@ -372,7 +372,7 @@ params:
   # 开启文章内目录，可以在页面内单独设置
   # Show table of contents, You can enable it separately in the page
   toc:
-    enabled: true
+    enabled: false
     # 超过这个字数后将显示目录
     # When the article word count is greater than this value, the TOC will be displayed
     wordCount: 400 
